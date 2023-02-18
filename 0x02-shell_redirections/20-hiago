@@ -1,2 +1,2 @@
 #!/bin/bash
-rm *c* *C* input
+echo "chicago" | tr c
