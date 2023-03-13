@@ -1,2 +1,2 @@
 #!/bin/bash
-ls dudu -laRd | wc -l
+ls . .. -laRd | wc -l
