@@ -1,2 +1,2 @@
 #!/bin/bash
-echo | tr -d c
+cat | tr -d 'c'
