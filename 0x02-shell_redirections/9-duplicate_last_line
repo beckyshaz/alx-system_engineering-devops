@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1- iacta
+tail -n 1 iacta | cut -b 1-
