@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#killing a process
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
+kill -9 $$
