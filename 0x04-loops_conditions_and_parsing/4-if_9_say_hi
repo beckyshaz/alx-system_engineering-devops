@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#while loop to print best school but in the ninth iteration print hi then best school
+i=0
+while ((i < 10));
+do
+echo "Best School"
+if [ $i == 8 ];
+then
+echo "Hi"
+fi
+((i++))
+done
