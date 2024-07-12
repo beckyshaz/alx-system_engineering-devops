@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Fix my server with these lines
+apt-get update -y
+apt-get install -y apache
+sudo service apache start
