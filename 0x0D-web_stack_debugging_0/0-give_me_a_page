@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Fix my server with these lines
 apt-get update -y
-apt-get install -y apache
-sudo service apache enable
-sudo service apache start
+apt-get install -y apache2
+sudo systemctl enable apache2
+sudo systemctl start apache2
