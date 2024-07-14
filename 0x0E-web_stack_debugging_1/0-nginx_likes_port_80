@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # configering nginx
-cat /etc/nginx/sites-available/default > /etc/nginx/sites-enables/default
+cat /etc/nginx/sites-available/default > /etc/nginx/sites-enabled/default
 sudo service nginx restart
