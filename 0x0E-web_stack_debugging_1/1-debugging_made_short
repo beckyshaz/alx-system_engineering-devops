@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# configering nginx and killing it
+cat /etc/nginx/sites-available/default > /etc/nginx/sites-enabled/default
+sudo service nginx restart
+pkill nginx
