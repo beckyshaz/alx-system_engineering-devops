@@ -2,5 +2,5 @@
 # whoami with one argument passed to it
 args=1
 if [ $# == $args ]; then 
-sudo -u  "$1" -c  whoami
+sudo -u "$1" whoami
 fi
