@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# using requests module to retrive data using api
+"""using requests module to retrive data using api"""
 
 if __name__ == "__main__":
     import requests as req
