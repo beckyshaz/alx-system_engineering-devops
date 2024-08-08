@@ -21,7 +21,7 @@ if __name__ == "__main__":
     for todo in todos:
         if todo.get("completed"):
             count += 1
-    print(f"Employee {name} is done with tasks({count}/{total})")
+    print(f"Employee {name} is done with tasks({count}/{total}):")
 
     for todo in todos:
         if todo.get("completed"):
