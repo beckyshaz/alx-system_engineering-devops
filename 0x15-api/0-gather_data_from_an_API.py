@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """using requests module to retrive data using api"""
 
-if __name__ == "__main__":
-    import requests as req
-    import sys
+import requests as req
+import sys
 
+
+if __name__ == "__main__":
     user_id = sys.argv[1]
     url = "https://jsonplaceholder.typicode.com/users/{}".format(user_id)
     resp = req.get(url).json()
