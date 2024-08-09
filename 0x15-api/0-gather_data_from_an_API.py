@@ -26,4 +26,4 @@ if __name__ == "__main__":
 
     for todo in todos:
         if todo.get("completed") is True:
-            print(f"\t{todo.get('title')}")
+            print(f"\t {todo.get('title')}")
