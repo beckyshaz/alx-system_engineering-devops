@@ -19,10 +19,10 @@ if __name__ == "__main__":
     count = 0
 
     for todo in todos:
-        if todo.get("completed"):
+        if todo.get("completed") is True:
             count += 1
     print(f"Employee {name} is done with tasks({count}/{total}):")
 
     for todo in todos:
-        if todo.get("completed"):
+        if todo.get("completed") is True:
             print(f"\t{todo.get('title')}")
