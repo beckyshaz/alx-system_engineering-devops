@@ -6,6 +6,7 @@ import requests as req
 
 
 def number_of_subscribers(subreddit):
+    """requsting reddit api"""
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {'User-Agent': 'Mozilla/5.0'}
     resp = req.get(url, headers=headers, allow_redirects=False)
